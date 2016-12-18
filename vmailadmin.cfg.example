@@ -1,0 +1,8 @@
+[general]
+session_key: EXAMPLE_KEY_CHANGEME
+
+[database]
+db_user: mailuser
+db_password: EXAMPLE_PASSWORD_CHANGEME
+db_location: localhost
+db_name: mailserver
