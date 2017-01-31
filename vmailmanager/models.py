@@ -19,6 +19,7 @@ class VirtualUser(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     domain_id = db.Column(db.Integer, db.ForeignKey('virtual_domains.id', ondelete='CASCADE'), default=None, nullable=False)
     domain = db.relationship(VirtualDomain, single_parent=True)
+    username = db.Column(db.Text, nullable=False, unique=True)
     password = db.Column(db.Text, nullable=False)
     email = db.Column(db.Text, nullable=False, unique=True, index=True)
 
