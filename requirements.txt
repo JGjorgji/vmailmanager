@@ -1,4 +1,5 @@
-Flask
-Flask-SQLAlchemy
-Flask-Admin
-psycopg2
+Flask~=3.0
+Flask-SQLAlchemy~=3.1
+Flask-Admin~=1.6.1
+psycopg[binary]~=3.1.12
+

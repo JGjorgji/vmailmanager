@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from vmailmanager import db
+from vmailmanager.main import db
 
 class VirtualDomain(db.Model):
 
